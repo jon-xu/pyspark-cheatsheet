@@ -390,7 +390,7 @@ df = df.drop("row_number")
 df = df.repartition(1)
 ```
 
-#### UDFs (User Defined Functions
+#### UDFs (User Defined Functions)
 
 ```python
 # Multiply each row's age column by two
